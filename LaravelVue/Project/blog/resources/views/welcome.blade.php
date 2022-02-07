@@ -19,6 +19,7 @@
                 font-family: 'Nunito', sans-serif;
             }
         </style>
+        <link rel="stylesheet" href="/css/all.css">
     </head>
     <body>
         <div id="app">

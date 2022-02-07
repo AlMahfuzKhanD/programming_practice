@@ -13,6 +13,12 @@
  import axios from 'axios';
  import { routes } from './routes';
  // import vuetify from '../plugins/vuetify'
+ import ViewUI from 'view-design';
+ import 'view-design/dist/styles/iview.css';
+ 
+ Vue.use(VueRouter);
+ Vue.use(ViewUI);
+ 
 
  
  /**
@@ -41,6 +47,7 @@
  
  
  Vue.use(VueRouter);
+ Vue.use(ViewUI);
 
 
   
