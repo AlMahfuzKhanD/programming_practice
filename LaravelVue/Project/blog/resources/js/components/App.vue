@@ -1,5 +1,5 @@
 <template>
-    <div class="container"> 
+    <div class="container-fluid"> 
         <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="collapse navbar-collapse">
                 <div class="navbar-nav">

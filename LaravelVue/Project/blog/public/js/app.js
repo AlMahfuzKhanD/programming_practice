@@ -75056,7 +75056,7 @@ var render = function () {
   var _c = _vm._self._c || _h
   return _c(
     "div",
-    { staticClass: "container" },
+    { staticClass: "container-fluid" },
     [
       _c("div", [
         _c("div", { staticClass: "_1side_menu" }, [
