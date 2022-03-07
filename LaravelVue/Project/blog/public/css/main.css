@@ -3077,5 +3077,9 @@ p {
   .catagory_main_inputs {
       width: 319px;
   }
+
+  .router-link-exact-active{
+    background: #b2d4ff;
+  }
   
   

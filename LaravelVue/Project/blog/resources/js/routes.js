@@ -3,6 +3,7 @@ import CreateProduct from './components/pages/myFirstPage.vue';
 import Hooks from './components/pages/basic/Hooks.vue';
 import Method from './components/pages/basic/Methods.vue';
 import Home from './components/pages/Home.vue';
+import Tags from './components/pages/Tags.vue';
 
  
 export const routes = [
@@ -13,6 +14,17 @@ export const routes = [
     path: '/',
     component: Home
 },
+{
+    name: 'tags',
+    path: '/tags',
+    component: Tags
+},
+
+
+
+
+
+
    // tutorial routes
     {
         name: 'create',
