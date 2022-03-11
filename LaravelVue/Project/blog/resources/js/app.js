@@ -15,6 +15,10 @@
  // import vuetify from '../plugins/vuetify'
  import ViewUI from 'view-design';
  import 'view-design/dist/styles/iview.css';
+
+ import common from './common'
+import Vue from 'vue';
+ Vue.mixin(common)
  
  Vue.use(VueRouter);
  Vue.use(ViewUI);
