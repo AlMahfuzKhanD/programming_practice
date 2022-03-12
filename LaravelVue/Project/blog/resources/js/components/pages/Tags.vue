@@ -76,7 +76,14 @@ export default{
 				this.success('Tag has been added successfully!')
 				this.addModal = false
 			}else{
-				this.swr()
+				if(res.status ===422){
+					if(res.data.errors.tagName){
+						this.info(res.data.errors.tagName[0])
+					}
+				}else{
+					this.swr()
+				}
+				
 			}
 		},
 
