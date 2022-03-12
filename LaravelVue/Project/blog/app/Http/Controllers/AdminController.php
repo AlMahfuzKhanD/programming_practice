@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-use app\Models\Tag;
+use App\Models\Tag;
 
 use Illuminate\Http\Request;
 
