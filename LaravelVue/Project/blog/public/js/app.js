@@ -5489,7 +5489,13 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 
                   _this.addModal = false;
                 } else {
-                  _this.swr();
+                  if (res.status === 422) {
+                    if (res.data.errors.tagName) {
+                      _this.info(res.data.errors.tagName[0]);
+                    }
+                  } else {
+                    _this.swr();
+                  }
                 }
 
               case 6:
