@@ -17,4 +17,9 @@ Route::get('/', function () {
     return view('welcome');
 });
  Route::post('/app/create_tag','AdminController@addTag');
- Route::post('/app/get_tags','AdminController@getTag');
+ Route::post('/app/update_tag','AdminController@updateTag');
+ Route::post('/app/delete_tag','AdminController@deleteTag');
+ Route::get('/app/get_tags','AdminController@getTag');
+ Route::get('/tags', function () {
+    return view('welcome');
+});

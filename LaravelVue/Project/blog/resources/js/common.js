@@ -17,6 +17,7 @@ export default{
             }
            
         },
+        
         info (desc,title='Hey!') {
             this.$Notice.info({
                 title: title,
